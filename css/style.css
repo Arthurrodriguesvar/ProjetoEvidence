@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gotham";
+}
+
+
+.ContainerNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #100cb3;
+    padding: 15px;
+    color: white;
+
+}
+
+.h1 {
+    font-size: x-large;
+}
+
+.link {
+    display: flex;
+    gap: 20px;
+   }
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li {
+    list-style: none;
+   
+}
+
+
+.sec2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #100cb3;
+    color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.txt {
+    display: flex;
+    justify-content: flex-end;
+}
