@@ -8,9 +8,10 @@
 
 .ContainerNav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background-color: #100cb3;
+    background-color: #0056A3;
     padding: 15px;
     color: white;
 
@@ -36,12 +37,24 @@ nav ul li {
    
 }
 
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+
 
 .sec2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 30px;
-    background-color: #100cb3;
+    padding: 200px;
+    background-color: #0056A3;
     color: white;
 }
 
