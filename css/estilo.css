@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gotham';
+}
+
+nav {
+   text-align:center;
+   padding: 20px;
+   color: #0056A3;
+}
+
+section {
+   padding: 50px;
+   color: #0056A3;
+   
+}
+
+input {
+    border-radius: 20px ;
+}

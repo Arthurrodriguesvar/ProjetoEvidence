@@ -61,6 +61,7 @@ section {
 .title {
     display: flex;
     justify-content: flex-start;
+    font-size: larger;
 }
 
 .txt {
