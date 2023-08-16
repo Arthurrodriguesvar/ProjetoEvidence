@@ -12,11 +12,23 @@ nav {
 }
 
 section {
-   padding: 50px;
+   display: flex;
+   justify-content: flr;
+   flex-direction: column;
+   padding: 65px;
    color: #0056A3;
    
 }
 
 input {
     border-radius: 20px ;
+}
+
+button {
+    background-color: #0056A3;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border: 10px;
+    
 }
