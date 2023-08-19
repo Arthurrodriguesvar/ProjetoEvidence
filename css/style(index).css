@@ -79,6 +79,7 @@ section {
  .link-login a {
     text-align: center;
     background-color: #0056A3;
+    border-radius: 20px;
     padding: 20px;
  
 }

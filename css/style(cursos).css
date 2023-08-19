@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gotham';
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color:#0056A3 ;
+}
+
+.img1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.img2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.txt {
+    text-align: center;
+    background-color: #0056A3;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+
+.link a {
+  background-color: #0056A3;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.centerchildren {
+   display: flex;
+   justify-content: center;
+}
