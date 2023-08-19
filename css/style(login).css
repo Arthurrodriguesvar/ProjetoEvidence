@@ -7,29 +7,36 @@
 
 nav {
    text-align:center;
-   padding: 20px;
+   padding: 30px;
    color: #0056A3;
 }
 
-section {
-   display: flex;
-   justify-content: flr;
-   flex-direction: column;
-   padding: 65px;
-   color: #0056A3;
-   
-}
 
-input {
-    border-radius: 20px ;
-}
-
-button {
-    background-color: #0056A3;
+.inpt input {
     border-radius: 20px;
-    color: white;
+    
     padding: 10px;
     text-decoration: none;
-    border: 10px;
     
 }
+
+.inpt button {
+    background-color: #0056A3;
+    color: white;
+    border: 10px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.centerchildren {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color:#0056A3 ;
+    margin: 30px;
+    padding: 50px;
+}
+
+
+    
+    
