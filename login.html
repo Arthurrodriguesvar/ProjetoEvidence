@@ -12,17 +12,43 @@
     <h2>Comece sua história com a gente.</h2>
     </header>
   
-        <div class="inpt centerchildren">
+        <div id="input" class="inpt centerchildren">
         <label for="txt_nome">Nome</label> <br>
-        <input type="text" id="txt_nome" size="50"> <br>
-        <label for="txt_email">Email ou numero de telefone</label> <br>
-        <input type="text" id="txt_email" size="50"> <br>
-        <label for="txt_data">Data de nascimento</label> <br>
-        <input type="date" id="txt_data"> <br>
-       
 
-      <a href="feed.html">Prosseguir</a>
+        <input type="text" id="txt_nome" size="50" required> <br>
+
+        <label for="txt_email">Email ou numero de telefone</label> <br>
+        <input type="email" id="txt_email" size="50" required> <br>
+
+        <label for="txt_data">Data de nascimento</label> <br>
+        <input type="date" id="txt_data" required> <br>
+       
+        <button onclick="login()">prosseguir</button>
         </div>
+
+        <script>
+          function login()
+          {
+            var log = document.getElementById("txt_nome").value
+            var log2 = document.getElementById("txt_email").value
+            var log3 = document.getElementById("txt_data").value
+           
+            
+            if (log != "" && log2 != "" && log3 != "") 
+            {
+             
+              window.location.href = "./feed.html"
+            }
+            else 
+            {
+               
+               alert("Preencha todos os campos")
+            }
+          }
+
+          
+
+        </script>
     
 </body>
 </html>
