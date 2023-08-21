@@ -10,6 +10,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 20px;
+    border-radius: 20px;
     align-items: center;
     background-color: #0056A3;
     padding: 15px;
@@ -39,12 +41,8 @@ nav ul li {
 
 section {
     display: flex;
-    flex-wrap: wrap;
-}
-
-section {
-    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -52,6 +50,8 @@ section {
 .sec2 {
     display: flex;
     flex-wrap: wrap;
+    border-radius: 20px;
+    margin: 20px;
     justify-content: space-between;
     padding: 100px;
     background-color: #0056A3;

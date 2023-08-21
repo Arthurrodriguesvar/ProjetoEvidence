@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes</title>
+    <link rel="stylesheet" href="./css/style(feed).css">
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+    <a href="index.html"><h1>Evi.</h1></a>
+  </div>
+    <div class="perfl">
+    <a href="">Seu perfil</a>
+    <a href="./cursos.html">Cursos</a>
+  </div>
+
+  </nav>
+  <section>
+    <p id="loading">Carregando...</p>
+   
+    <div id="posts-container"></div>
+  
+    <h2>Comentários</h2>
+    <form id="comentarios-form">
+      <div>
+          <label for="email">Digite seu E-mail.</label>
+          <input type="email" id="email" name="email" placeholder="Digiite seu e-mail." required>
+
+      </div>
+      <div>
+        <label for="comentario">Comentário</label>
+        <textarea name="txt-comentario" id="txt-comentario" placeholder="Digite seu comentario."required ></textarea>
+      </div>
+    <input type="submit" value="Enviar">
+
+    </form>
+
+    <div id="comentarios-container"></div>
+    <script src="./js/index.js"></script>
+    <a href="./feed.html">Voltar</a>
+  </section>
+</body>
+</html>
